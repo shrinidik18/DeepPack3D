@@ -63,7 +63,7 @@ def deeppack3d(method, lookahead, *, n_iterations=100, seed=None, verbose=1, dat
     
     env = MultiBinPackerEnv(n_bins=1, 
                             max_bins=1, 
-                            size=(32, 32, 32), 
+                            size=(156, 72, 120), 
                             k=lookahead, 
                             prealloc_items=100, 
                             verbose=verbose)
